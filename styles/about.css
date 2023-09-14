@@ -130,7 +130,7 @@ header .menu .links ul li a:hover{
 
 header .slider{
     /* border: 1px solid rgb(255, 255, 255); */
-    height: 70%;
+    height: 85%;
     
 }
 
@@ -221,7 +221,7 @@ main .mainContainer .rightMainContainer img{
 }
 
 footer{
-    background-color: black;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("https://media.istockphoto.com/id/962573582/fr/photo/femme-avec-bataille-de-cordage-cordages-en-exercice-dans-la-salle-de-gym-fitness.webp?b=1&s=612x612&w=0&k=20&c=wCZ7hzyXghUWK2-5Q0f6t7V_qDxZEj4D7b2qe-wE9XY=");
     color: white;
     height: 20% ;
     padding-top: 4%;
@@ -270,87 +270,4 @@ footer .footerContainer .bottomFooterContainer .bottomFooterContainerItems .titl
 footer .footerContainer .bottomFooterContainer .bottomFooterContainerItems .details{
     font-weight: 200;
     color: rgba(255, 255, 255, 0.635);
-}
-
- /* --------------------------------------------------------------- */
-
-
- @media (max-width: 768px) {
-    body {
-        height: auto; 
-    }
-
-    header {
-        height: auto; 
-        padding: 10px; 
-    }
-
-    header .banner {
-        flex-direction: column; 
-    }
-
-    header .banner .bannerLeft {
-        width: 100%; 
-        margin-bottom: 10px; 
-    }
-
-    header .banner .bannerRight {
-        width: 100%; 
-    }
-
-    header .menu {
-        height: auto; 
-        padding: 10px; 
-    }
-
-    header .menu .menuContainer {
-        flex-direction: column;
-    }
-
-    header .menu .links {
-        width: 100%; 
-    }
-
-    header .menu .links ul {
-        flex-direction: column; 
-    }
-
-    header .slider {
-        height: auto; 
-        padding: 10px; 
-    }
-
-    header .slider img {
-        width: 100%; 
-    }
-
-    main {
-        height: auto; 
-    }
-
-    main .mainContainer {
-        flex-direction: column; 
-    }
-
-    main .mainContainer .leftMainContainer,
-    main .mainContainer .rightMainContainer {
-        width: 100%; 
-    }
-
-    footer {
-        height: auto; 
-        padding: 10px;
-        
-    }
-
-    footer .bottomFooterContainer{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-
-
-@media (min-width: 769px) {
-   
 }
